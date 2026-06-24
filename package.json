@@ -1,6 +1,19 @@
 {
   "name": "plus-mfe-categorizacao",
   "version": "1.0.0",
+  "description": "Microfrontend de categorização de produtos do sistema Plus (Module Federation remote).",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorCzerner/plus-mfe-categorizacao.git"
+  },
+  "main": "dist/assets/remoteEntry.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite --port 4002",
     "build": "vite build",
